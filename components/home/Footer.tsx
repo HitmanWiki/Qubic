@@ -79,7 +79,7 @@ export const Footer = () => {
     >
       <Flex css={{ gap: 80, '@bp600': { gap: 136 } }}>
         <Flex direction="column">
-          <SectionTitle title="CC Token" />
+          <SectionTitle title="Qubic Token" />
           {developerSectionLinks.map((props) => (
             <SectionLink key={props.name} {...props} />
           ))}
@@ -95,7 +95,7 @@ export const Footer = () => {
         direction="column"
         css={{ alignItems: 'flex-start', '@bp600': { alignItems: 'flex-end' } }}
       >
-        <SectionTitle title="Join CC Community" />
+        <SectionTitle title="Join Qubic Community" />
         <Flex css={{ gap: '$4', mt: 16 }}>
           <a
             target="_blank"

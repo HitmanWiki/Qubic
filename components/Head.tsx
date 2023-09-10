@@ -27,7 +27,7 @@ export const Head: FC<Props> = ({
       <title>Qubic Trust Protocol Marketplace</title>
 
       {/* Meta tags */}
-      <meta name="CC Marketplace" content={description} />
+      <meta name="Qubic Marketplace" content={description} />
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
@@ -46,7 +46,7 @@ export const Head: FC<Props> = ({
       <meta property="og:image:type" content="image/png" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
-      <meta property="og:image:alt" content="CC NFT Marketplace Banner" />
+      <meta property="og:image:alt" content="Qubic NFT Marketplace Banner" />
     </NextHead>
   )
 }

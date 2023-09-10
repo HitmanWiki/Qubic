@@ -38,9 +38,9 @@ class MyDocument extends Document {
           href="/logo60.png"
         />
 
-        {/* CC meta tags */}
-        <meta property="CC:title" content="CC Market" />
-        <meta property="CC:icon" content="/CC-source-icon.png" />
+        {/* Qubic meta tags */}
+        <meta property="Qubic:title" content="Qubic Market" />
+        <meta property="Qubic:icon" content="/Qubic-source-icon.png" />
         <meta
           property="CC:token-url-mainnet"
           content="/ethereum/asset/${contract}:${tokenId}"
